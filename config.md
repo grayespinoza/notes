@@ -19,5 +19,7 @@ website_url   = "https://heygrey.dev/notes/"
 Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
+\newcommand{\vector}[1]{\mathbf{#1}}
