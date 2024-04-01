@@ -22,4 +22,7 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\i}{\mathrm{i}}
+\newcommand{\d}{\mathrm{d}}
 \newcommand{\vector}[1]{\mathbf{#1}}
