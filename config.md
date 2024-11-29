@@ -30,6 +30,8 @@ Add here global TeX commands to use throughout your pages.
   #2
   @@
 }
+
+\newcommand{\equation}[1]{\begin{equation*}#1\end{equation*}}
 \newcommand{\align}[1]{\begin{equation*}\begin{aligned}#1\end{aligned}\end{equation*}}
 
 \newcommand{\bb}[1]{\mathbb{#1}}
