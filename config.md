@@ -18,6 +18,19 @@ website_url   = "https://heygrey.dev/notes/"
 <!--
 Add here global TeX commands to use throughout your pages.
 -->
+\newcommand{\definition}[2]{
+  @@definition
+  **Definition**: (_!#1_)
+  #2
+  @@
+}
+\newcommand{\theorem}[2]{
+  @@theorem
+  **Theorem**: (_!#1_)
+  #2
+  @@
+}
+
 \newcommand{\align}[1]{\begin{aligned}#1\end{aligned}}
 
 \newcommand{\bb}[1]{\mathbb{#1}}

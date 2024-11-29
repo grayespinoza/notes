@@ -188,3 +188,16 @@ td {
 table tbody tr td {
   border: 1px solid lightgray;
 }
+
+.definition {
+  background-color: #fffaee;
+  border-left: 5px solid #ffec5b;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+.theorem {
+  background-color: #eef5fa;
+  border-left: 5px solid #67addf;
+  padding: 10px;
+  margin-bottom: 1em;
+}
