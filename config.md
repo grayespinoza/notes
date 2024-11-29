@@ -56,3 +56,4 @@ Add here global TeX commands to use throughout your pages.
 \newcommand{\map}[3]{{#1}\colon{#2}\to{#3}}
 \newcommand{\seq}[3]{{#1}^{#2}_1,\dots,{#1}^{#2}_{#3}}
 \newcommand{\ser}[3]{{#1}^{#2}_1+\dots+{#1}^{#2}_{#3}}
+\newcommand{\poly}[3]{{#1}_0+\dots+{#1}_{#2}{#3}^{#2}}
