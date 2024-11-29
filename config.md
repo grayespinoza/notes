@@ -30,8 +30,7 @@ Add here global TeX commands to use throughout your pages.
   #2
   @@
 }
-
-\newcommand{\align}[1]{\begin{aligned}#1\end{aligned}}
+\newcommand{\align}[1]{\begin{equation*}\begin{aligned}#1\end{aligned}\end{equation*}}
 
 \newcommand{\bb}[1]{\mathbb{#1}}
 \newcommand{\bf}[1]{\mathbf{#1}}
