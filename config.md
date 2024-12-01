@@ -24,6 +24,12 @@ Add here global TeX commands to use throughout your pages.
   #2
   @@
 }
+\newcommand{\notation}[2]{
+  @@notation
+  **Notation**: (_!#1_)
+  #2
+  @@
+}
 \newcommand{\theorem}[2]{
   @@theorem
   **Theorem**: (_!#1_)
