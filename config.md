@@ -25,7 +25,7 @@ Add here global TeX commands to use throughout your pages.
   @@
 }
 \newcommand{\notation}[2]{
-  @@notation
+  @@definition
   **Notation**: (_!#1_)
   #2
   @@
