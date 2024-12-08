@@ -36,6 +36,12 @@ Add here global TeX commands to use throughout your pages.
   #2
   @@
 }
+\newcommand{\lemma}[2]{
+  @@theorem
+  **Lemma**: (_!#1_)
+  #2
+  @@
+}
 \newcommand{\proof}[1]{
   **Proof**:
   #1$\blacksquare$
