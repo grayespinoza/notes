@@ -36,6 +36,10 @@ Add here global TeX commands to use throughout your pages.
   #2
   @@
 }
+\newcommand{\proof}[1]{
+  **Proof**:
+  #1$\blacksquare$
+}
 
 \newcommand{\equation}[1]{\begin{equation*}#1\end{equation*}}
 \newcommand{\align}[1]{\equation{\begin{aligned}#1\end{aligned}}}
