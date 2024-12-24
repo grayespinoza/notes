@@ -10,3 +10,9 @@
 Textbook: **_Linear Algebra Done Right_**, fourth edition
 
 Author: **Sheldon Axler**
+
+## [MATH 302 - Modern Algebra](/302)
+
+Textbook: **_Abstract Algebra: An Introduction_**, third edition
+
+Author: **Thomas W. Hungerford**
