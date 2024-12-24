@@ -54,7 +54,6 @@ Add here global TeX commands to use throughout your pages.
 \newcommand{\bf}[1]{\mathbf{#1}}
 \newcommand{\cal}[1]{\mathcal{#1}}
 \newcommand{\rm}[1]{\mathrm{#1}}
-\newcommand{\txt}[1]{\text{#1}}
 
 \newcommand{\F}{\bb{F}}
 \newcommand{\C}{\bb{C}}
@@ -69,6 +68,7 @@ Add here global TeX commands to use throughout your pages.
 \newcommand{\d}{\rm{d}}
 
 \newcommand{\deq}{\coloneqq}
+\newcommand{\cases}[1]{\begin{cases}#1\end{cases}}
 
 \newcommand{\map}[3]{{#1}\colon{#2}\to{#3}}
 \newcommand{\poly}[3]{{#1}_0+\dots+{#1}_{#2}{#3}^{#2}}
