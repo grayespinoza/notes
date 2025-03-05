@@ -5,6 +5,16 @@
 
 \tableofcontents
 
+## [MATH 350 - Advanced Calculus](/350)
+
+Textbook: **_Understanding Analysis_**, second edition
+
+Author: **Stephen Abbott**
+
+Textbook: **_Elementary Analysis: The Theory of Calculus_**, second edition
+
+Author: **Kenneth A. Ross**
+
 ## [MATH 307 - Linear Algebra](/307)
 
 Textbook: **_Linear Algebra Done Right_**, fourth edition
