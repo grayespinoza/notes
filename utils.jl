@@ -9,8 +9,6 @@ function hfun_m1fill(vname)
 end
 
 function lx_baz(com, _)
-  # keep this first line
   brace_content = Franklin.content(com.braces[1]) # input string
-  # do whatever you want here
   return uppercase(brace_content)
 end

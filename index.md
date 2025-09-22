@@ -5,7 +5,7 @@
 
 \tableofcontents
 
-## [MATH 350 - Advanced Calculus](/350)
+## [MATH 350 - Advanced Calculus I](/350)
 
 Textbook: **_Understanding Analysis_**, second edition
 
@@ -20,9 +20,3 @@ Author: **Kenneth A. Ross**
 Textbook: **_Linear Algebra Done Right_**, fourth edition
 
 Author: **Sheldon Axler**
-
-## [MATH 302 - Modern Algebra](/302)
-
-Textbook: **_Abstract Algebra: An Introduction_**, third edition
-
-Author: **Thomas W. Hungerford**

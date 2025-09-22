@@ -9,7 +9,6 @@ prepath = "notes"
 
 ignore = ["node_modules/"]
 
-generate_rss = true
 website_title = "Notes | Grey"
 website_descr = "notes from mathematics"
 website_url   = "https://heygrey.dev/notes/"

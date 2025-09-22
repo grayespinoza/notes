@@ -3,8 +3,7 @@
 ================================================================== */
 
 :root {
-  --block-background: hsl(0, 0%, 94%);
-  --output-background: hsl(0, 0%, 98%);
+  --block-background: #f8f8f8;
   --small: 14px;
   --normal: 19px;
   --text-color: hsv(0, 0%, 20%);
@@ -276,11 +275,6 @@ body { counter-reset: eqnum; }
   padding-right: 5px;
 }
 
-.nonumber .katex-display::after {
-  counter-increment: nothing;
-  content: "";
-}
-
 /* ==================================================================
     CODE & HIGHLIGHT.JS
 ================================================================== */
@@ -308,15 +302,15 @@ code {
   border-radius: 10px;
 }
 
-.hljs-meta { font-weight: bold;}
+.hljs-meta,
+.hljs-metas,
+.hljs-metap { font-weight: bold; }
 
-.hljs-meta.shell_ {color: crimson;}
-.hljs-meta.prompt_ {color: rgb(25, 179, 51);}
+.hljs-meta { color: rgb(25, 179, 51); }
 
-.code-output {
-  background: var(--output-background);
-  border: 1px dashed #dbdbdb;
-}
+.hljs-metas { color: red; }
+
+.hljs-metap { color: rgb(51, 131, 231); }
 
 /* ==================================================================
     BOXES

@@ -1,0 +1,46 @@
+<div class="page-wrap">   <!-- closed in foot.html -->
+  <!-- SIDE BAR -->
+  <div class="side-bar">
+    <div class="header">
+      <a href="/" class="title">
+        Notes
+      </a>
+    </div>
+    <label for="show-menu" class="show-menu">MENU</label>
+    <input type="checkbox" id="show-menu" role="button">
+    <div class="menu" id="side-menu">
+      <ul class="menu-list">
+        <li class="menu-list-item {{ispage index}}active{{end}}"><a href="/" class="menu-list-link {{ispage index}}active{{end}}">Home</a>
+
+        <li class="menu-list-item {{ispage 350/*}}active{{end}}"><a href="/350/" class="menu-list-link {{ispage 350}}active{{end}}">Advanced Calculus I</a>
+          <ul>
+            <li class><a href="/350/#the_real_numbers">The Real Numbers</a>
+            <li class><a href="/350/#sequences_and_series">Sequences and Series</a>
+            <li class><a href="/350/#basic_topology_of_mathbb_r">Basic Topology of R</a>
+            <li class><a href="/350/#functional_limits_and_continuity">Functional Limits and Continuity</a>
+            <li class><a href="/350/#the_derivative">The Derivative</a>
+            <li class><a href="/350/#sequences_and_series_of_functions">Sequences and Series of Functions</a>
+            <li class><a href="/350/#the_riemann_integral">The Riemann Integral</a>
+          </ul>
+
+        <li class="menu-list-item {{ispage 307/*}}active{{end}}"><a href="/307/" class="menu-list-link {{ispage 307}}active{{end}}">Linear Algebra</a>
+          <ul>
+            <li class><a href="/307/#vector_spaces">Vector Spaces</a>
+            <li class><a href="/307/#finite-dimensional_vector_spaces">Finite-Dimensional Vector Spaces</a>
+            <li class><a href="/307/#linear_maps">Linear Maps</a>
+            <li class><a href="/307/#eigenvalues_and_eigenvectors">Eigenvalues and Eigenvectors</a>
+            <li class><a href="/307/#inner_product_spaces">Inner Product Spaces</a>
+          </ul>
+
+      </ul>
+    </div>
+    <div class="footer">
+      <a href="https://www.julialang.org"><img style="height:50px;padding-left:10px;margin-bottom:15px;" src="https://julialang.org/assets/infra/logo.svg" alt="Julia Logo"></a>
+    </div>
+  </div>
+  <!-- CONTENT -->
+  <div class="main-content-wrap"> <!-- closed in foot.html -->
+    <div class="main-content">    <!-- closed in foot.html -->
+      <div class="main-header">
+        <a id="github" href="https://github.com/grayespinoza/notes">Code on GitHub</a>
+      </div>
