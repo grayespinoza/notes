@@ -22,7 +22,9 @@ body {
   margin: 0;
   position: relative;
   padding-bottom: 4rem;
-  font-family: -apple-system, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+  font-family:
+    -apple-system, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial,
+    sans-serif;
   font-size: inherit;
   line-height: 1.5;
   color: #5c5962;
@@ -281,10 +283,14 @@ SIDE BAR
 }
 
 /* Hide checkbox */
-input[type=checkbox] { display: none; }
+input[type="checkbox"] {
+  display: none;
+}
 
 /* Show menu when invisible checkbox is checked */
-input[type=checkbox]:checked ~ #side-menu { display: block; }
+input[type="checkbox"]:checked ~ #side-menu {
+  display: block;
+}
 
 /* side bar adjustments for narrow mode (bar on top) */
 @media (max-width: 49.99rem) {
@@ -303,7 +309,9 @@ input[type=checkbox]:checked ~ #side-menu { display: block; }
     padding-left: 15px;
     width: 150px;
   } /* middle space */
-  .show-menu { display: block; }
+  .show-menu {
+    display: block;
+  }
 }
 
 /* side bar adjustments for narrow mode (bar on top) */
@@ -370,7 +378,6 @@ input[type=checkbox]:checked ~ #side-menu { display: block; }
     min-width: 264px;
   }
 }
-
 
 /************************************************************
 =============================================================
@@ -601,14 +608,17 @@ td {
   padding-left: 20%;
 }
 
-
 /* ==================================================================
     KATEX
 ================================================================== */
 
-body { counter-reset: eqnum; }
+body {
+  counter-reset: eqnum;
+}
 
-.katex { font-size: 1em !important; }
+.katex {
+  font-size: 1em !important;
+}
 
 .katex-display .katex {
   display: inline-block;
@@ -635,13 +645,21 @@ body { counter-reset: eqnum; }
 
 .hljs-meta,
 .hljs-metas,
-.hljs-metap { font-weight: bold; }
+.hljs-metap {
+  font-weight: bold;
+}
 
-.hljs-meta { color: rgb(25, 179, 51); }
+.hljs-meta {
+  color: rgb(25, 179, 51);
+}
 
-.hljs-metas { color: red; }
+.hljs-metas {
+  color: red;
+}
 
-.hljs-metap { color: rgb(51, 131, 231); }
+.hljs-metap {
+  color: rgb(51, 131, 231);
+}
 
 franklin-toc {
   /* Avoid clickable elements being too close together. */
@@ -651,9 +669,9 @@ franklin-toc {
 .note {
   margin-top: 1.5em;
   width: 95%;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:  aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
   border-radius: 5px;
   margin-bottom: 1em;
 }
@@ -661,7 +679,7 @@ franklin-toc {
   padding: 10px;
   padding-left: 12px;
 }
-.note .title{
+.note .title {
   font-size: 105%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -674,9 +692,9 @@ franklin-toc {
 .warning {
   margin-top: 1.5em;
   width: 95%;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:  #f1b3b1;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f1b3b1;
   border-radius: 5px;
   margin-bottom: 1em;
 }
@@ -684,7 +702,7 @@ franklin-toc {
   padding: 10px;
   padding-left: 12px;
 }
-.warning .title{
+.warning .title {
   font-size: 105%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -694,7 +712,7 @@ franklin-toc {
   background: crimson;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
