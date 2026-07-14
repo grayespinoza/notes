@@ -15,6 +15,12 @@ Textbook: **_Elementary Analysis: The Theory of Calculus_**, second edition
 
 Author: **Kenneth A. Ross**
 
+## [MATH 335 - Mathematical Probability](/335)
+
+Textbook: **_A First Course in Probability_**, eighth edition
+
+Author: **Sheldon Ross**
+
 ## [MATH 307 - Linear Algebra](/307)
 
 Textbook: **_Linear Algebra Done Right_**, fourth edition
