@@ -49,17 +49,20 @@ Add here global TeX commands to use throughout your pages.
 \newcommand{\equation}[1]{\begin{equation*}#1\end{equation*}}
 \newcommand{\align}[1]{\equation{\begin{aligned}#1\end{aligned}}}
 
-\newcommand{\bb}[1]{\mathbb{#1}}
 \newcommand{\bf}[1]{\mathbf{#1}}
 \newcommand{\cal}[1]{\mathcal{#1}}
 \newcommand{\rm}[1]{\mathrm{#1}}
 
-\newcommand{\F}{\bb{F}}
-\newcommand{\C}{\bb{C}}
-\newcommand{\R}{\bb{R}}
-\newcommand{\Q}{\bb{Q}}
-\newcommand{\Z}{\bb{Z}}
-\newcommand{\N}{\bb{N}}
+\newcommand{\F}{\bf{F}}
+\newcommand{\C}{\bf{C}}
+\newcommand{\R}{\bf{R}}
+\newcommand{\Q}{\bf{Q}}
+\newcommand{\Z}{\bf{Z}}
+\newcommand{\N}{\bf{N}}
+
+\newcommand{\P}{\cal{P}}
+\newcommand{\L}{\cal{L}}
+\newcommand{\M}{\cal{M}}
 
 \newcommand{\e}{\rm{e}}
 \newcommand{\i}{\rm{i}}
@@ -70,8 +73,8 @@ Add here global TeX commands to use throughout your pages.
 \newcommand{\cases}[1]{\begin{cases}#1\end{cases}}
 
 \newcommand{\map}[3]{{#1}\colon{#2}\to{#3}}
-\newcommand{\poly}[3]{{#1}_0+\dots+{#1}_{#2}{#3}^{#2}}
+\newcommand{\poly}[3]{{#1}_0+\cdots+{#1}_{#2}{#3}^{#2}}
 \newcommand{\matrix}[1]{\begin{bmatrix}#1\end{bmatrix}}
 \newcommand{\seq}[3]{{#1}^{#2}_1,\dots,{#1}^{#2}_{#3}}
-\newcommand{\ser}[3]{{#1}^{#2}_1+\dots+{#1}^{#2}_{#3}}
-\newcommand{\combo}[3]{{#1}_1{#3}_1+\dots+{#1}_{#2}{#3}_{#2}}
+\newcommand{\ser}[3]{{#1}^{#2}_1+\cdots+{#1}^{#2}_{#3}}
+\newcommand{\combo}[3]{{#1}_1{#3}_1+\cdots+{#1}_{#2}{#3}_{#2}}
