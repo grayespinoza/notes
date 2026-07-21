@@ -1,0 +1,38 @@
+name: CD
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-pages:
+    name: Run github-pages-deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Install Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.8"
+      - name: Install Julia
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: "1"
+      - run: julia -e '
+          using Pkg; Pkg.activate("."); Pkg.instantiate();
+          using NodeJS; run(`$(npm_cmd()) install highlight.js`);
+          using Franklin;
+          optimize()'
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: __site
+          clean: true
+          single-commit: true
